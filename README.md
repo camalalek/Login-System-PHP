@@ -1,2 +1,2 @@
-# Simple-User-System-PHP-SQL
-A simple User-System developed in PHP &amp; SQL.
+# Simple-Login-System-PHP-SQL
+A simple login & register system developed in PHP &amp; SQL (Procedural).
