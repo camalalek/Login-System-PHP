@@ -1,10 +1,10 @@
 <?php
 
-@$LoginUsername = strtolower($_POST['LoginUsername']);
-@$LoginPassword = $_POST['LoginPassword'];
-@$LoginSubmit = $_POST['LoginSubmit'];
-@$LoginRememberMe = $_POST['LoginRememberMe'];
-@$LoginError = "";
+$LoginUsername = strtolower($_POST['LoginUsername']);
+$LoginPassword = $_POST['LoginPassword'];
+$LoginSubmit = $_POST['LoginSubmit'];
+$LoginRememberMe = $_POST['LoginRememberMe'];
+$LoginError = "";
 
 if ($LoginSubmit) {
 	if ($LoginUsername&&$LoginPassword) {
