@@ -1,15 +1,15 @@
 <?php
 
 //Variables
-@$RegisterUsername = strip_tags(strtolower($_POST['RegisterUsername']));
-@$RegisterPassword = strip_tags($_POST['RegisterPassword']);
-@$RegisterRetypePassword = strip_tags($_POST['RegisterRetypePassword']);
-@$RegisterFirstname = ucfirst(strip_tags(strtolower($_POST['RegisterFirstname'])));
-@$RegisterLastname = ucfirst(strip_tags(strtolower($_POST['RegisterLastname'])));
-@$RegisterEmail = strip_tags($_POST['RegisterEmail']);
-@$RegisterTimeStamp = date('Y-m-d H:i:s');
-@$RegisterSubmit = $_POST['RegisterSubmit'];
-@$RegisterError = "";
+$RegisterUsername = strip_tags(strtolower($_POST['RegisterUsername']));
+$RegisterPassword = strip_tags($_POST['RegisterPassword']);
+$RegisterRetypePassword = strip_tags($_POST['RegisterRetypePassword']);
+$RegisterFirstname = ucfirst(strip_tags(strtolower($_POST['RegisterFirstname'])));
+$RegisterLastname = ucfirst(strip_tags(strtolower($_POST['RegisterLastname'])));
+$RegisterEmail = strip_tags($_POST['RegisterEmail']);
+$RegisterTimeStamp = date('Y-m-d H:i:s');
+$RegisterSubmit = $_POST['RegisterSubmit'];
+$RegisterError = "";
 
 
 if ($RegisterSubmit) {
